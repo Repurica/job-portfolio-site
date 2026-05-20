@@ -75,6 +75,7 @@ export type Profile = {
   subheadline: string;
   location: string;
   email: string;
+  phone?: string;
   github: string;
   linkedin: string;
   website: string;

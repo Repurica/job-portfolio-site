@@ -5,7 +5,7 @@ import { SkillMatrix } from '@/components/SkillMatrix';
 import { profile } from '@/content/profile';
 import { pageMetadata } from '@/lib/site';
 
-export const metadata: Metadata = pageMetadata({ title: 'Interactive CV — Your Name', description: 'Interactive timeline, expandable experience, education, skills matrix, and resume PDF download.', path: '/cv' });
+export const metadata: Metadata = pageMetadata({ title: 'Interactive CV — Cao Jinming', description: 'Interactive timeline, expandable experience, education, skills matrix, and resume PDF download.', path: '/cv' });
 
 export default function CvPage() {
   return (

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { profile } from '@/content/profile';
 
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://your-domain.com';
+export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://github.com/Repurica/job-portfolio-site';
 export const siteName = `${profile.name} — Portfolio`;
 
 export function absoluteUrl(path = '/') {
@@ -47,6 +47,7 @@ export const personJsonLd = {
   name: profile.name,
   url: siteUrl,
   email: profile.email,
+  telephone: profile.phone,
   jobTitle: profile.subheadline,
   address: profile.location,
   sameAs: [profile.github, profile.linkedin, profile.website],

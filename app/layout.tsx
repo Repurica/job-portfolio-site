@@ -7,8 +7,8 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import { pageMetadata, personJsonLd, profilePageJsonLd } from '@/lib/site';
 
 export const metadata: Metadata = {
-  ...pageMetadata({ title: 'Your Name — Design-minded Frontend Engineer', description: 'A recruiter-friendly portfolio with case studies, interactive CV, standard resume, and contact links.' }),
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://your-domain.com'),
+  ...pageMetadata({ title: 'Cao Jinming — FinTech & Cybersecurity Portfolio', description: 'A recruiter-friendly portfolio with case studies, interactive CV, standard resume, and contact links.' }),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://github.com/Repurica/job-portfolio-site'),
 };
 
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#f6efe2', colorScheme: 'light dark' };

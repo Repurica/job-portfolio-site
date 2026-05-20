@@ -4,7 +4,7 @@ import { SectionHeader } from '@/components/SectionHeader';
 import { projects } from '@/content/projects';
 import { pageMetadata } from '@/lib/site';
 
-export const metadata: Metadata = pageMetadata({ title: 'Projects — Your Name', description: 'Project case studies for frontend, visual analytics, product engineering, and local-first prototypes.', path: '/projects' });
+export const metadata: Metadata = pageMetadata({ title: 'Projects — Cao Jinming', description: 'Project case studies for FinTech, full-stack web development, cybersecurity, and operations systems.', path: '/projects' });
 
 export default function ProjectsPage() {
   return (

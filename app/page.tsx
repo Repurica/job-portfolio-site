@@ -11,7 +11,7 @@ export default function HomePage() {
     <>
       <Hero />
       <MotionSection className="mx-auto max-w-7xl px-5 py-20 md:px-10" id="featured-projects">
-        <SectionHeader eyebrow="selected work" title="Case studies with evidence, not decoration.">
+        <SectionHeader eyebrow="selected work" title="Case studies grounded in resume evidence, not decoration.">
           点击项目标题会改变 accent 色与纸面纹理；这是克制的主题切换交互，而不是牺牲阅读性的视觉噱头。
         </SectionHeader>
         <ProjectThemeShowcase />
@@ -19,7 +19,7 @@ export default function HomePage() {
       <MotionSection className="mx-auto grid max-w-7xl gap-8 px-5 py-16 md:grid-cols-[.8fr_1.2fr] md:px-10">
         <div>
           <p className="font-mono text-xs uppercase tracking-[.32em] text-accent">about / short brief</p>
-          <h2 className="mt-4 font-serif text-4xl font-black tracking-tight text-ink">Product-aware engineering, edited like a good essay.</h2>
+          <h2 className="mt-4 font-serif text-4xl font-black tracking-tight text-ink">FinTech product judgment, full-stack execution, cybersecurity discipline.</h2>
         </div>
         <div className="prose-editorial text-lg">
           <p>{profile.bioShort}</p>
@@ -27,7 +27,7 @@ export default function HomePage() {
         </div>
       </MotionSection>
       <MotionSection className="mx-auto max-w-7xl px-5 py-16 md:px-10">
-        <SectionHeader eyebrow="capability matrix" title="A practical stack for product interfaces." />
+        <SectionHeader eyebrow="capability matrix" title="A practical stack for secure product workflows." />
         <SkillMatrix compact />
       </MotionSection>
     </>

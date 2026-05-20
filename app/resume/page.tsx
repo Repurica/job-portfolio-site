@@ -3,7 +3,7 @@ import { PrintButton } from '@/components/PrintButton';
 import { profile } from '@/content/profile';
 import { pageMetadata } from '@/lib/site';
 
-export const metadata: Metadata = pageMetadata({ title: 'Resume — Your Name', description: 'A standard recruiter-scannable resume page with PDF download.', path: '/resume' });
+export const metadata: Metadata = pageMetadata({ title: 'Resume — Cao Jinming', description: 'A standard recruiter-scannable resume page with PDF download.', path: '/resume' });
 
 export default function ResumePage() {
   return (
@@ -16,7 +16,7 @@ export default function ResumePage() {
         <header className="border-b border-line/70 pb-6">
           <h1 className="font-serif text-5xl font-black tracking-[-.04em]">{profile.name}</h1>
           <p className="mt-2 text-lg text-muted">{profile.subheadline}</p>
-          <p className="mt-3 text-sm text-muted">{profile.location} · <a href={`mailto:${profile.email}`}>{profile.email}</a> · <a href={profile.github}>GitHub</a> · <a href={profile.linkedin}>LinkedIn</a></p>
+          <p className="mt-3 text-sm text-muted">{profile.location} · <a href={`mailto:${profile.email}`}>{profile.email}</a>{profile.phone ? ` · ${profile.phone}` : ''} · <a href={profile.github}>GitHub</a> · <a href={profile.linkedin}>LinkedIn</a></p>
         </header>
         <ResumeSection title="Summary"><p>{profile.bioShort}</p></ResumeSection>
         <ResumeSection title="Experience">
