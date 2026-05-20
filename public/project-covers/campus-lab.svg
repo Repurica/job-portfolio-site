@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Campus Product abstract cover">
+  <rect width="1200" height="750" fill="#f7f1df"/>
+  <defs><pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0v38" fill="none" stroke="#b4a889" stroke-opacity=".38"/></pattern></defs>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <path d="M-80 240 C 250 150, 390 260, 740 120 S 1060 230, 1290 170" fill="none" stroke="#3c6f4a" stroke-width="72" stroke-linecap="round" opacity=".22"/>
+  <path d="M140 560 H1060" stroke="#151815" stroke-width="3" opacity=".7"/>
+  <text x="90" y="130" fill="#3c6f4a" font-family="Georgia, serif" font-size="34" font-weight="700" letter-spacing="8">CASE STUDY</text>
+  <text x="90" y="640" fill="#151815" font-family="Georgia, serif" font-size="72" font-weight="900">Campus Product</text>
+</svg>

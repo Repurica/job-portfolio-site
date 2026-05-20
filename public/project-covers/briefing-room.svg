@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Briefing Room abstract cover">
+  <rect width="1200" height="750" fill="#f4f0e8"/>
+  <defs><pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0v38" fill="none" stroke="#9da8b8" stroke-opacity=".38"/></pattern></defs>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <path d="M-80 120 C 250 220, 390 80, 740 240 S 1060 110, 1290 220" fill="none" stroke="#244f8f" stroke-width="72" stroke-linecap="round" opacity=".22"/>
+  <path d="M140 560 H1060" stroke="#111827" stroke-width="3" opacity=".7"/>
+  <text x="90" y="130" fill="#244f8f" font-family="Georgia, serif" font-size="34" font-weight="700" letter-spacing="8">CASE STUDY</text>
+  <text x="90" y="640" fill="#111827" font-family="Georgia, serif" font-size="72" font-weight="900">Briefing Room</text>
+</svg>

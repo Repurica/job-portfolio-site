@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Privacy Notes abstract cover">
+  <rect width="1200" height="750" fill="#f3eadc"/>
+  <defs><pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0v38" fill="none" stroke="#a99ab7" stroke-opacity=".38"/></pattern></defs>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <path d="M-80 160 C 250 240, 390 130, 740 260 S 1060 150, 1290 230" fill="none" stroke="#6b4aa0" stroke-width="72" stroke-linecap="round" opacity=".22"/>
+  <path d="M140 560 H1060" stroke="#15111d" stroke-width="3" opacity=".7"/>
+  <text x="90" y="130" fill="#6b4aa0" font-family="Georgia, serif" font-size="34" font-weight="700" letter-spacing="8">CASE STUDY</text>
+  <text x="90" y="640" fill="#15111d" font-family="Georgia, serif" font-size="72" font-weight="900">Privacy Notes</text>
+</svg>

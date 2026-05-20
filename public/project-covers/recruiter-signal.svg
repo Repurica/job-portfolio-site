@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Recruiter Signal abstract cover">
+  <rect width="1200" height="750" fill="#f6efe2"/>
+  <defs><pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0v38" fill="none" stroke="#b8a484" stroke-opacity=".38"/></pattern></defs>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <path d="M-80 180 C 250 90, 390 220, 740 130 S 1060 260, 1290 180" fill="none" stroke="#9f2d20" stroke-width="72" stroke-linecap="round" opacity=".22"/>
+  <path d="M140 560 H1060" stroke="#17130f" stroke-width="3" opacity=".7"/>
+  <text x="90" y="130" fill="#9f2d20" font-family="Georgia, serif" font-size="34" font-weight="700" letter-spacing="8">CASE STUDY</text>
+  <text x="90" y="640" fill="#17130f" font-family="Georgia, serif" font-size="72" font-weight="900">Recruiter Signal</text>
+</svg>
